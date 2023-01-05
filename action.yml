@@ -10,6 +10,6 @@ branding:
   color: "blue"
 runs:
   using: "docker"
-  image: "ghcr.io/one-among-us/puppeteer-headful"
+  image: "docker://ghcr.io/one-among-us/puppeteer-headful:master"
   args:
     - ${{ inputs.args }}
