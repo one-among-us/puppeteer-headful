@@ -10,6 +10,6 @@ branding:
   color: "blue"
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: "ghcr.io/one-among-us/puppeteer-headful"
   args:
     - ${{ inputs.args }}
